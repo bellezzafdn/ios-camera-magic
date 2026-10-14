@@ -1,0 +1,24 @@
+name: Fotocamera
+options:
+  bundleIdPrefix: com.custom.camera
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Fotocamera:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Assets.xcassets
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Fotocamera
+        CFBundleName: Fotocamera
+        UILaunchScreen:
+          UIColorName: ""
+        NSCameraUsageDescription: "Fotocamera"
+        UIStatusBarHidden: true
+        UIViewControllerBasedStatusBarAppearance: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
